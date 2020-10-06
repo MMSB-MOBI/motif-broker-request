@@ -2,7 +2,7 @@ import requests, time
 
 MOTIF_BROKER_ENDPOINT = "http://localhost:3282"
 BULK_LENGTH = 50000
-NB_JOKER = 1
+NB_JOKER = 15
 SESSION = requests.Session()
 SESSION.trust_env = False
 
